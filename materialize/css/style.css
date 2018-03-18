@@ -1,0 +1,63 @@
+div#mydiv{
+	position: fixed;
+	top: 40%;
+	right: 0%;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: block;
+	z-index: 1000;
+}
+
+#contrast {
+	background-color: black;
+color: aliceblue;
+font-size: 25px;
+padding: 4px;
+text-decoration: none;
+display: block;
+margin-left: 1px;
+}
+#contrast1 {
+    background-color: #00dd99;
+    font-size: 25px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    margin-left: 1px;
+}
+#contrast1 .glyphicon-adjust {
+    color: #FFF;
+}
+
+.glyphicon {
+	position: relative;
+top: 1px;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+
+}
+
+#largerText {
+	background-color: black;
+color: aliceblue;
+font-size: 25px;
+padding: 4px;
+text-decoration: none;
+display: block;
+margin-left: 1px;
+
+}
+#smallerText {
+	background-color: #00dd99;
+color: aliceblue;
+font-size: 25px;
+padding: 4px;
+text-decoration: none;
+margin-left: -4px;
+display: block;
+margin-left: .5px;
+
+}

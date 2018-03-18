@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SND</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">      
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="css/materialize.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src="js/materialize.min.js"></script>       
+      <script type="text/javascript" src="js/script.js"></script>      
+      <style>
+        a.class1:hover { color: red; }
+      </style>
+
+
+<!-- Install Restive.JS -->
+
+<script type="text/javascript" src="js/restive.js"></script>
+     
+<!-- Configure Restive.JS -->
+<script>
+    $( document ).ready(function() {
+        $('body').restive({
+            breakpoints: ['10000'],
+            classes: ['nb'],
+            turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet,is_portrait=portrait,is_landscape=landscape'
+        });
+    });
+</script>
+  </head>
+  <body>
+  <div id="mydiv">
+           
+          <a href="" tabindex="1"> 
+          	<span id="contrast1"> 
+          		<span class="glyphicon   glyphicon-adjust">
+          			<i class="material-icons">clear_all</i>
+          		</span>
+          	</span>
+          </a>
+          <span id="contrast" tabindex="2" onclick="contrastChange()"> 
+          	<span class="glyphicon glyphicon-adjust">
+          		<i class="material-icons">invert_colors</i>
+          	</span>
+          </span>
+          <span id="largerText" tabindex="3" onclick="increaseFont()">A+</span>
+          <span id="smallerText" tabindex="4" onclick="decreaseFont()">A-</span>
+	 </div>
+  	 
+  	  <div class="card-panel black lighten-2 white-text text-lighten-4" style="margin-bottom: 0px">
+  	  	<div class="row">
+  	 		<div class="col s6">
+  	  			<h3>eYEWAY</h3>
+		      	<p>Supporting Partially Sighted/Blind for being independent</p>
+      		</div>
+      		<div class="col s3">
+      		 <form>
+		        <div class="input-field white">
+		          <input id="search" type="search" required>
+		          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+		          <i class="material-icons">close</i>
+		        </div>
+		      </form>
+		    </div>
+      		<div class="col s2" style="float:right">
+      			<a class="waves-effect waves-light btn">Login</a>
+      		</div>	
+    	</div>
+    </div>
+      
+    <div class="row teal" style="margin-bottom: 0px">
+
+      <div class="col s2">
+        <ul>
+			<li><a class="nav white-text text-darken-2" href="index.html" title="Home" accesskey="1">Home</a></li>
+			<li><a class="nav white-text text-darken-2" href="Recent.html" title="Recently Diagnosed" accesskey="2">Recently Diagnosed</a></li>
+			<li><a class="nav white-text text-darken-2" href="Info.html" title="Information Corner" accesskey="3">Information Corner</a></li>
+			<li><a class="nav white-text text-darken-2" href="Education.html" title="Education" accesskey="4">Education</a></li>
+			<li><a class="nav white-text text-darken-2" href="#!" title="Organisations" accesskey="5">Organisations</a></li>
+			<li><a class="nav white-text text-darken-2" href="#!" title="Membership" accesskey="6">Membership</a></li>
+			<li><a class="nav white-text text-darken-2" href="#!" title="Volunteering" accesskey="7">Volunteering</a></li>
+			<li><a class="nav white-text text-darken-2" href="http://www.maxability.co.in/blog-posts/" title="Blogs" accesskey="8">Blogs</a></li>
+			<!--<li><a class="nav white-text text-darken-2" href="Contact.html" accesskey="9">Contact Us</a></li> -->
+	  	</ul>
+      </div>
+
+      <div class="col s10 white" >
+        <p>This is an online information portal developed by a group of partially sighted / visually impaired persons on the basis of their life experiences. This portal will guide in every expect related with your life.</p>
+		
+		<div class="row">
+        <div class="col s4" >
+              <a style="color:inherit;" href="https://library.daisyindia.org/NALP/welcomeLink.action">
+          <div class="card" >
+            <div class="card-image">
+              <img src="sp.jpg" height="350" width="250">
+             <!--  <span class="card-title black-text"><b>Sugamya Pustakalaya</b></span> -->
+            </div>
+            <div class="card-content">
+            	<h4>Sugamya Pustakalaya</h4>
+              <p>Ministry of Social Justice and Empowerment lauched Online Library "Sugamya Pustakalaya" in collaboration with Daisy forum India, Bookshare and Powered by TCS access infity. </p>
+              <a style="color:inherit;" href="https://www.youtube.com/watch?v=KxUQX_P5LqQ">Sugamya Pustakalaya Launch video </a>
+            </div>
+            <!--<div class="card-action">
+              <a href="https://library.daisyindia.org/NALP/welcomeLink.action">Sugamya Pustakalaya</a>
+            </div> -->
+           </div>
+           </a>
+         </div>
+
+        <div class="col s4">
+              <a href="https://play.google.com/store/apps/details?id=in.gingermind.eyed&hl=en">
+          <div class="card">
+            <div class="card-image">
+              <img src="eyed.jpg" height="350" width="250">
+              <!-- <span class="card-title grey-text text-darken-5"><b>Eye-D Android Applications</b></span> -->
+            </div>
+            <div class="card-content black-text">
+            	<h4>Eye-D Android Applications</h4>
+              <p>This mobile application provides answers to the following types of question; Where am i? What around me? It also helps in identifying objects and reading printed text through scanning.</p>
+            </div>
+            <!--<div class="card-action">
+              <a href="https://play.google.com/store/apps/details?id=in.gingermind.eyed&hl=en">Eye-D Android App Download</a>
+            </div> -->
+           </div>
+           </a>
+         </div>
+         
+         </div>
+
+        <div class="row">
+	        <h3>News and Events-</h3>
+	      	<div class="col s4">
+	          <a href="https://www.youtube.com/watch?v=JhlfDAXh_Qw">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="image/Events.jpg" height="350" width="250">
+		              <!-- <span class="card-title black-text"><b>Video</b></span> -->
+		            </div>
+		            <div class="card-content black-text">
+		            	<h4>Video</h4>
+		              <p>ASSISTECH - Technology solutions for the Visually Impaired | M. Balakrishnan | TEDxNSIT</br> </p>
+		            </div>
+		          </div>
+	           </a>
+	        </div>
+		</div>
+
+      </div>
+
+    </div>
+
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contact Us</h5>
+                <p class="grey-text text-lighten-4"> 
+					<a href="http://web.iitd.ernet.in/~anz168049/" class="grey-text text-lighten-4">Akashdeep Bansal</a><br>
+					<br>
+					<b>Address:</b><br>
+					Assistech Lab<br>
+					Amar Nath and Shashi Khosla School of Information Technology<br>
+					Indian Institute of Technology Delhi<br>
+					Hauz Khas, New Delhi 110016 INDIA
+				</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="class1" href="http://www.rnib.org.uk/">RNIB</a></li>
+                  <li><a class="class1" href="http://icevi.org/">ICEVI</a></li>
+                  <li><a class="class1" href="https://www.light-for-the-world.org/">Light For The World</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright. All Rights Reserved 
+            </div>
+          </div>
+    </footer>
+   </body>
+</html>

@@ -1,0 +1,28 @@
+coetg
+rnib
+4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c
+
+Prepare Upto 8 slides with the following structure (duration: 15 minutes)
+
+1.Title slide
+2. Objectives
+3-5. Approach including tools (upto 3 slides)
+6. Status
+7. Deliverables
+8. Projected timeline
+
+
+<div class="col s2">
+      	<h3>News and Events-</h3>
+		<p><a class="white-text text-lighten-4" href="https://www.youtube.com/watch?v=JhlfDAXh_Qw">ASSISTECH - Technology solutions for the Visually Impaired | M. Balakrishnan | TEDxNSIT</a></p>
+		<p><a class="white-text text-lighten-4" href="http://assistech.iitd.ernet.in/indo-us-workshop.php" target="_blank">2nd Indo US workshop</a></p>
+		<p><a class="white-text text-lighten-4" href="http://techshare.barrierbreak.com/" target="_blank">TechShare fifth edition</a></p>
+      </div>
+
+
+link color
+font +- colorchange - same link
+access key 
+image size - D
+card heading - D
+
