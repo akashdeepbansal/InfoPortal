@@ -1,7 +1,7 @@
 Django==1.10.4
 Markdown==2.6.8
 PAM==0.4.2
-Pillow==2.3.0
+Pillow==6.2.0
 PyJWT==1.5.0
 Pygments==2.2.0
 SecretStorage==2.0.0
