@@ -42,7 +42,7 @@ launchpadlib==1.10.2
 lazr.restfulclient==0.13.3
 lazr.uri==1.0.3
 lockfile==0.8
-lxml==3.3.3
+lxml==4.6.2
 mate-menu==5.6.5a
 mate-tweak==3.4.9
 mutagen==1.22
