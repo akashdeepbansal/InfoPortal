@@ -29,7 +29,7 @@ django-imagekit==3.3
 django-location-field==2.0.3
 django-material==1.0.0
 django-twitter-bootstrap==3.3.0
-djangorestframework==3.6.2
+djangorestframework==3.11.2
 dnspython==1.11.1
 duplicity==0.6.23
 gyp==0.1
