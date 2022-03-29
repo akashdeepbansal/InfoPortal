@@ -53,7 +53,7 @@ oauth==1.0.1
 oauthlib==2.0.2
 olefile==0.44
 oneconf==0.3.7.14.04.1
-paramiko==1.10.1
+paramiko==2.10.1
 pexpect==3.1
 pilkit==1.1.13
 piston-mini-client==0.7.5
